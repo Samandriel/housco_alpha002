@@ -57,6 +57,9 @@ GEM
       ruby_parser
     erubis (2.7.0)
     execjs (2.2.1)
+    foundation-rails (5.3.0.1)
+      railties (>= 3.1.0)
+      sass (>= 3.2.0)
     haml (4.0.5)
       tilt
     haml-rails (0.5.3)
@@ -164,6 +167,7 @@ DEPENDENCIES
   devise
   erb2haml
   erb2haml-win
+  foundation-rails
   haml-rails
   html2haml
   jbuilder (~> 2.0)

@@ -44,6 +44,7 @@ gem 'simple_form'
 gem 'haml-rails'
 gem 'html2haml'
 gem 'carrierwave'
+gem 'foundation-rails'
 
 group :development do
 	gem 'erb2haml-win'
