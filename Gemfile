@@ -39,7 +39,13 @@ gem 'bcrypt', '~> 3.1.7'
 # gem 'debugger', group: [:development, :test]
 
 gem 'devise'
-gem 'tzinfo'
+gem 'tzinfo-data'
 gem 'simple_form'
 gem 'haml-rails'
+gem 'html2haml'
 gem 'carrierwave'
+
+group :development do
+	gem 'erb2haml-win'
+	gem 'erb2haml'
+end
